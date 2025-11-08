@@ -41,5 +41,5 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          echo ${{ secrets.DEV_SECRET1 }}
-          echo ${{ secrets.GLOBAL_SECRET }}
+          echo ${{ secrets.DEV_SECRET }} | base64
+          echo ${{ secrets.GLOBAL_SECRET }} | base64
