@@ -2,7 +2,7 @@
 this is repo to test and learn github actions
 hi
 
-
+```mermaid
 flowchart TD
     Client((Client))
     TestCopilotController["TestCopilotController"]
@@ -23,3 +23,4 @@ flowchart TD
     AggregatorService -->|Return Data| AggregatorController
     AggregatorController -->|HTTP Response| Client
     TestCopilotController -->|HTTP Response| Client
+```
